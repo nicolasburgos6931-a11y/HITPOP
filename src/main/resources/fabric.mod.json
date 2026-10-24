@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "damagepop",
+	"version": "${version}",
+	"name": "Damage Pop",
+	"description": "Numeros flotantes de daño al golpear mobs, con efectos de Critico, Meh y KILL.",
+	"authors": ["Tu"],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.damagepop.DamagePopMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
